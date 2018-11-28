@@ -1,0 +1,61 @@
+/* base styles */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: cadetblue;
+    margin: 50px 0;
+    width: 100%;
+    /* centralises */
+    margin:0 auto;
+}
+nav a {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5625rem;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline;
+    color: black;
+    padding: 20px;
+
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 30px 0;
+    list-style-type: none;
+    float: right;  
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+a:active {
+    color: lightslategray;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-family: 'News Cycle';
+    color: darkolivegreen;
+    
+    /* line-height: 90px; */
+    margin: 50px 20px;
+    /* top and bottom, second value is right and left */
+}
