@@ -1,61 +1,169 @@
-/* base styles */
+/* Base styles */
 
+/* selector chosen (body)*/
 body {
-    font-family: 'Quicksand', sans-serif;
+    
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-position-y: center;
+
+
+    /* sets background color to 'mistyrose' */
+    /* background-color: rgb(75, 133, 160); */
+     /* sets your font(s) for the website */
+    font-family: 'Amatic SC';
+    /* sets the margins for body to 0 */
     margin: 0;
 }
 
+/* selector being the header */
 header {
-    background-color: cadetblue;
-    margin: 50px 0;
+    /* sets the background color for the header */
+    background-color: rgba(142, 188, 143, 0.7);
+    /* sets margin for the header */
+    margin: 3.125em 0;
+    /* sets the width to 100% of the header */
     width: 100%;
-    /* centralises */
-    margin:0 auto;
+    /* centralises everything in the header */
+    margin: 0 auto;
 }
-nav a {
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: none;
-    color: black;
-    font-size: 1.5625rem;
+
+/* selector being list inside the nav bar */
+nav ul {
+    /* sets margin for nav to 0 */
+    margin: 0;
+    /* padding for nav top & bottom set to 30px, left & right set to 0 */
+    padding: 30px 0;
+    /* takes the bullets away from the list */
+    list-style-type: none;
+    /* moves list to the right side of the header */
+    float: right;
+}
+
+/* selector being the img */
+img {
+    /* adds width of image to 80px */
+    width: 80px;
+    /* sets height to auto adjust depending on browser */
+    height: auto;
+    /* sets padding to image all around */
     padding: 10px;
+}
+
+/* selecting the lists */
+li {
+    /* display text inline  */
+    display: inline;
+    /* sets text color of list to white */
+    color: white;
+    /* changes padding for the lists */
+    padding: 1.250em;
+}
+
+/* selectpr being anchors inside the nav */
+nav a {
+    /* aligns anchor tags to the center */
+    text-align: right;
+    /* aligns the top margin */
+    margin-top: 3.125em;
+    /* removes the underlining of the hyperlinks */
+    text-decoration: none;
+    /* sets the text color of the anchor to white */
+    color: white;
+    /* sets font size */
+    font-size: 1.563em;
+    /* sets padding to 10px */
+    padding: 10px;
+    /* changes all text to uppercase */
+    text-transform: uppercase;
+}
+/* selector being anchor tag enabling hover function */
+a:hover {
+    /* text color changes when hovering over anchor links */
+    color: black;
+}
+
+/* selector anchor eneabling active function */
+a:active {
+    /* changes color when clicked on */
+    color: pink;
+}
+/* created id */
+#container {
+    margin: 0 10%;
+    max-width: 1100%;
+    background-color: rgb(235, 221, 221)
+}
+
+.container{
+    background-color: #fff;
+    text-align: center;
+    padding: 2%;
+    background-color:#45364B;
+    border: #729B79;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.intro {
+    color: black;
+    text-align: center;
+    background-color: #C8D5B9;
+}
+
+.main {
+    color: black;
+    text-align: center;
+    background-color: #C97064;
+    margin-top: 10px;
+}
+
+
+.container2 {
+    background-color: #C97064;
+    text-align: center;
+    padding: 2%;
+    background-color:#45364B;
+    border: #729B79;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+}
+
+
+button {
+    /* width of the button */
+    width: 100px;
+    /* padding around the button */
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: lightgreen;
+    border-radius: 3px;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: lightslategray;
+}
+/* button short for */
+.btn {
+    background-color: sienna;
     text-transform: uppercase;
 }
 
-li {
-    display: inline;
-    color: black;
-    padding: 20px;
-
-
+a {
+    text-decoration: none;
+    color: white
 }
 
-nav ul {
-    margin: 0;
-    padding: 30px 0;
-    list-style-type: none;
-    float: right;  
-}
-
-a:hover {
-    color: palevioletred;
-}
-
-a:active {
-    color: lightslategray;
-}
-
-img {
-    width: 100px;
-    height: auto;
-    padding: 10px 10px;
-}
-
-h1 {
-    font-family: 'News Cycle';
-    color: darkolivegreen;
-    
-    /* line-height: 90px; */
-    margin: 50px 20px;
-    /* top and bottom, second value is right and left */
+nav { 
+    border-radius: 5px;
 }
